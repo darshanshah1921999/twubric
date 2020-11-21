@@ -1,0 +1,158 @@
+.header-conatainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.user-title{
+    width: 70%;
+    display: flex;
+    padding-left: 2rem;
+}
+.user-filter{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.filter-label{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.filter-type{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reset-button{
+    padding: 0 20px 0 20px;
+}
+.start-date{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.sort-type{
+    display: flex;
+}
+.end-date{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 27%;
+    padding: 5px;
+}
+
+.userList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.header{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.twubric-score{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.twubric-details{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 0 0 black;
+    justify-content: space-between;
+}
+
+.twubric-friends{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border: 1px solid black;
+}
+
+.twubric-influence{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.twubric-chirpiness{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.join-date{
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.button-container{
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .userContainer {
+      width: 35%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .userContainer {
+      width: 80%;
+    }
+}
+
